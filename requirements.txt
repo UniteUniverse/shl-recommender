@@ -5,4 +5,4 @@ google-generativeai
 sentence-transformers
 scikit-learn
 python-dotenv
-gunicorn  # Required for production server
+gunicorn==21.2.0  
