@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from recommendation_logic import recommend_assessments
 from waitress import serve
-
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS if needed
